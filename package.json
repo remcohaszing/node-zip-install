@@ -1,0 +1,11 @@
+{
+  "name": "zip-install",
+  "version": "0.0.1",
+  "description": "",
+  "main": "zip-install.js",
+  "scripts": {
+    "test": "eslint --max-warnings 0 ."
+  },
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "license": "MIT"
+}
