@@ -8,6 +8,13 @@
   },
   "author": "Remco Haszing <remcohaszing@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "extract-zip": "^1.6.5",
+    "gauge": "^2.7.4",
+    "mkdirp-then": "^1.2.0",
+    "request": "^2.81.0",
+    "request-progress": "^3.0.0"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
