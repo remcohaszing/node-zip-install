@@ -21,9 +21,13 @@ function downloadZip(url, outPath) {
       .pipe(fs.createWriteStream(outPath))
       .on('error', (err) => {
         r.abort();
+        gauge.hide();
         reject(err);
       })
-      .on('finish', resolve);
+      .on('finish', () => {
+        gauge.hide();
+        resolve();
+      });
   });
 }
 
